@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "SF Display";
+  font-weight: 400;
+  src: url("https://sf.abarba.me/SF-UI-Display-Regular.otf");
+}
+
+.page-wrap {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f7f7f7;
+  border-bottom: 4px solid #00a7d1;
+  .chorus-logo {
+    width: 162px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+.content-wrap {
+  width: 824px;
+  height: 521px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #d7dade;
+  border-radius: 5px;
+  margin: 251px 0;
+  .title {
+    width: 468px;
+    height: 26px;
+    font-family: "SF Display";
+    font-size: 26px;
+    color: #333333;
+    line-height: 28px;
+    margin-top: 43px;
+  }
+}
+
+@media (max-width: 850px) {
+  .content-wrap {
+    width: 95%;
+    .title {
+      width: 95%;
+      height: 10%;
+      text-align: center;
+    }
+  }
+}

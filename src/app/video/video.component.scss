@@ -1,0 +1,22 @@
+video {
+  width: 304px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+.video-error {
+  position: relative;
+  top: 2em;
+  color: red;
+}
+
+.video-wrap {
+  margin-top: 9px;
+}
+
+@media (max-width: 850px) {
+  video {
+    width: 250px;
+    margin: 0 auto;
+  }
+}

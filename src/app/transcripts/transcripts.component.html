@@ -1,0 +1,10 @@
+<ul class="transcripts">
+  <li *ngFor="let transcript of transcripts; index as i">
+    <div [ngClass]="addClass(transcript.speaker, i)" class="indicator"></div>
+    <!-- <div [ngClass]="addRepClass(transcript.speaker, i) ? 'rep' : ''" [ngClass]="addCustClass(transcript.speaker, i) ? 'cust' : ''"
+      class="indicator"></div> -->
+    <span class="snippet">
+      {{ transcript.snippet }}
+    </span>
+  </li>
+</ul>
